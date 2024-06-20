@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+}
+
+h1{
+    padding: 10px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+header{
+height: 100%px; ;/*minecraft*/
+background-color: #146fe6;/*цвет фона*/
+color: rgb(145, 151, 139);/*цвет фона*/
+text-align: center;
+font-size: 50px;
+
+background-image: url(https://upload.wikimedia.org/wikipedia/ru/f/f4/Minecraft_Cover_Art.png);
+background-size: 50%;
+background-position: center;
+background-repeat: no-repeat;
+
+font-family: Georgia;
+
+text-shadow: 1px 5px 20px black;
+
+}
+main{
+    height: 800px; ;/*minecraft*/
+    background-color: #004268;/*цвет фона*/
+    color: rgb(165, 165, 165);/*цвет фона*/
+    text-align: left;
+    font-size: 50px;
+    padding: 35px;
+    display: flex;
+    }
+
+.left{
+    width: 50%;
+    font-size: 50%;
+    text-align: justify;
+}
+
+.right{
+    width: 50%;
+    text-align: center;
+}
+
+footer{
+    height: 300px; ;/*minecraft*/
+    background-color: #010a13;/*цвет фона*/
+    color: rgb(240, 240, 240);/*цвет фона*/
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+    }
+
+    .social img{
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .social{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
